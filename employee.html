@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Search</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        form { max-width: 400px; margin: 0 auto; }
+        input, button { padding: 8px; margin: 5px 0; width: 100%; }
+        h1 { text-align: center; color: #333; }
+    </style>
+</head>
+<body>
+    <h1>Employee Search</h1>
+    <form action="EmployeeServlet" method="post">
+        <label for="empId">Employee ID:</label>
+        <input type="text" id="empId" name="empId" required>
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+### Input/Output Examples
+
+#### Problem 1:
+**Input:**  
+h_arss_h@192 Javautil % echo "Servlet application created. Ready for deploym
+ent to a servlet container."
+Servlet application created. Ready for deployment to a servlet container.
+
+#### Problem 2: 
+**Input:**  
+h_arss_h@192 Javautil % echo "Application created successfully. Please follo
+w the deployment instructions to test the application."
+Application created successfully. Please follow the deployment instructions to test the application.
+
+#### Problem 3: 
+**Input:**  
+h_arss_h@192 Javautil % cd "Assignment 8/AttendanceApp" && jar -cvf Attendan
+ceApp.war *
+added manifest
+adding: src/(in = 0) (out= 0)(stored 0%)
+adding: src/AttendanceServlet.java(in = 1671) (out= 576)(deflated 65%)
+adding: WebContent/(in = 0) (out= 0)(stored 0%)
+adding: WebContent/WEB-INF/(in = 0) (out= 0)(stored 0%)
+adding: WebContent/WEB-INF/web.xml(in = 718) (out= 275)(deflated 61%)
+adding: WebContent/attendance.jsp(in = 1543) (out= 573)(deflated 62%)
+adding: WebContent/confirmation.jsp(in = 789) (out= 431)(deflated 45%)
